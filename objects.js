@@ -18,5 +18,7 @@ const person = {
     }
 }
 
-person.greet();
+let copiedPerson = {...person};
 
+person.greet();
+console.log(copiedPerson);
