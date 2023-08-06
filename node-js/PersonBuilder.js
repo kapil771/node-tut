@@ -36,6 +36,6 @@ let person = new PersonBuilder()
                 .setName('Kapil')
                 .setGender('Male')
                 .setHeight(5.3)
-                .setWeight(60)
+                // .setWeight(60)
                 .build();
 console.log(person);
